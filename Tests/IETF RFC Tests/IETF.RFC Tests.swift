@@ -3,9 +3,9 @@ import Testing
 
 extension IETF.RFC {
     @Suite
-    struct Tests {
+    struct Namespace {
         @Test
-        func namespace() {
+        func exists() {
             #expect(IETF.RFC.self == IETF.RFC.self)
         }
     }
